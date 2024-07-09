@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    margin: auto 20px;
+
+}
+
+
+
+
+.carousel {
+    width: 100%;
+    height: 200px; /* Asegura que el Carousel ocupe el 100% del ancho disponible */
+  }
+  
+  .carousel .carousel-inner {
+    width: 100%;
+    height: 200px; /* Ajusta el ancho de la parte interior del Carousel */
+  }
+  
+  .carousel .carousel-item {
+    width: 100%; 
+    height: 200px;/* Ajusta el ancho de cada item del Carousel */
+  }
+  
+  .carousel .item img {
+    width: 100%;
+    height: 200px; /* Ajusta el ancho de las imágenes dentro de los items del Carousel */
+  }
+  
