@@ -1,13 +1,21 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './inicio.css';
+import Grid from './grid';
+import Productos from './productos';
+import slider1 from '../assets/slider1.png';
+import slider2 from '../assets/slider2.png';
+import slider3 from '../assets/slider3.jpg';
+import slider4 from '../assets/slider4.jpg';
+
+
 
 
 
 
 const Inicio = () => {
   return (
-    <div className='container'>
+    <div className='container-inicio'>
 
     {/* Carousel */}
 
@@ -15,30 +23,24 @@ const Inicio = () => {
         <Carousel>
           <Carousel.Item className='item'>
             <img
-              className=""
-              src="https://via.placeholder.com/800x400?text=First+slide"
-              alt="First slide"
+              className="slider1"
+              src={slider1}
+              alt="slider1"
             />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
+            
           </Carousel.Item>
           <Carousel.Item className='item'>
             <img
               className=""
-              src="https://via.placeholder.com/800x400?text=Second+slide"
+              src={slider2}
               alt="Second slide"
             />
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
+           
           </Carousel.Item>
           <Carousel.Item className='item'>
             <img
               className=""
-              src="https://via.placeholder.com/800x400?text=Third+slide"
+              src={slider3}
               alt="Third slide"
             />
             <Carousel.Caption>
@@ -51,9 +53,13 @@ const Inicio = () => {
         </Carousel>
       </div>
 
+    {/* Grid */}
 
+      <Grid/>
 
+    {/* Productos */}
 
+    <Productos/>
       
     </div>
   );

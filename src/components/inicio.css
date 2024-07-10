@@ -1,29 +1,93 @@
-.container{
-    width: 100%;
-    margin: auto 20px;
 
-}
-
-
-
-
+/*Carousel */
 .carousel {
     width: 100%;
-    height: 200px; /* Asegura que el Carousel ocupe el 100% del ancho disponible */
+    height: 230px; 
   }
   
   .carousel .carousel-inner {
     width: 100%;
-    height: 200px; /* Ajusta el ancho de la parte interior del Carousel */
+    height: 230px; 
   }
   
   .carousel .carousel-item {
     width: 100%; 
-    height: 200px;/* Ajusta el ancho de cada item del Carousel */
+    height: 230px;
   }
   
-  .carousel .item img {
+   /* .carousel .item img {
     width: 100%;
-    height: 200px; /* Ajusta el ancho de las imágenes dentro de los items del Carousel */
+    height: 100%; 
+  } 
+   */
+
+
+  /*Grids */
+
+  .container-grid{
+
+    
+   
+    background-color: #FFFFFF;
+    padding: 20px;
+    
+
+  }
+
+  .titulo-grid{
+    padding: 40px;
+    
   }
   
+  .solid p{
+    
+  
+    color:#037E52 ;
+    
+  }
+  .grid1, .grid2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre las imágenes */
+    margin-bottom: 20px;
+  }
+
+  .grid2 {
+    justify-content: center;
+    margin-left: 120px; 
+    margin-right:120px;/* Centra el contenido de grid2 */
+  }
+
+ 
+  .grid1 img{
+    width: 300px;
+    height: 350px;
+   
+  }
+
+  
+
+
+
+
+
+
+/* Productos */
+
+.container-productos{
+
+  padding: 20px;
+  
+
+}
+
+.lista-productos ul{
+  border: 2px solid black;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+
+}
